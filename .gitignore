@@ -1,0 +1,17 @@
+# Ignorar todo excepto los archivos .ipynb
+*
+!*.ipynb
+!.gitignore
+
+# Ignorar el entorno virtual
+judicial_venv/
+venv/
+
+# Ignorar archivos innecesarios
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Evitar archivos grandes
+google-chrome-stable_current_amd64.deb
